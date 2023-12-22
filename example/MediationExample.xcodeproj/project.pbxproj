@@ -14,6 +14,7 @@
 		26E463031B890E8800D2C50F /* SampleCustomEventNativeAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E463021B890E8800D2C50F /* SampleCustomEventNativeAd.m */; };
 		2B7390D426E0A76000D12EE5 /* ExampleNativeAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7390D326E0A76000D12EE5 /* ExampleNativeAdView.m */; };
 		2B7390D726E0A77700D12EE5 /* ExampleNativeAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B7390D526E0A77700D12EE5 /* ExampleNativeAdView.xib */; };
+		488A3CC5E5C3A52B0D6350D0 /* libPods-MediationExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E1ED56BAE5A403E8B9E162 /* libPods-MediationExample.a */; };
 		4A0575BE1C287FFB0085EBE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0575BC1C287FFB0085EBE0 /* main.m */; };
 		4A8B03771C286FDA0052A060 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A8B03731C286FDA0052A060 /* LaunchScreen.xib */; };
 		4A8B03781C286FDA0052A060 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A8B03751C286FDA0052A060 /* Main.storyboard */; };
@@ -93,9 +94,11 @@
 		26E462EF1B87BFE900D2C50F /* SampleCustomEventInterstitial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SampleCustomEventInterstitial.m; path = CustomEvent/SampleCustomEventInterstitial.m; sourceTree = "<group>"; };
 		26E463011B890E8800D2C50F /* SampleCustomEventNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SampleCustomEventNativeAd.h; path = CustomEvent/SampleCustomEventNativeAd.h; sourceTree = "<group>"; };
 		26E463021B890E8800D2C50F /* SampleCustomEventNativeAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SampleCustomEventNativeAd.m; path = CustomEvent/SampleCustomEventNativeAd.m; sourceTree = "<group>"; };
+		29E1ED56BAE5A403E8B9E162 /* libPods-MediationExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MediationExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B7390D226E0A76000D12EE5 /* ExampleNativeAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleNativeAdView.h; sourceTree = "<group>"; };
 		2B7390D326E0A76000D12EE5 /* ExampleNativeAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleNativeAdView.m; sourceTree = "<group>"; };
 		2B7390D626E0A77700D12EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ExampleNativeAdView.xib; sourceTree = "<group>"; };
+		3A4258757EEA9B06EDFD735F /* Pods-MediationExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediationExample.debug.xcconfig"; path = "Target Support Files/Pods-MediationExample/Pods-MediationExample.debug.xcconfig"; sourceTree = "<group>"; };
 		4A0575BB1C287FFB0085EBE0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MediationExample/Info.plist; sourceTree = SOURCE_ROOT; };
 		4A0575BC1C287FFB0085EBE0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MediationExample/main.m; sourceTree = SOURCE_ROOT; };
 		4A8B03741C286FDA0052A060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = MediationExample/Base.lproj/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
@@ -105,6 +108,7 @@
 		4A93FA481C286D8F00479579 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MediationExample/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		4A93FA501C286D8F00479579 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = MediationExample/ViewController.h; sourceTree = SOURCE_ROOT; };
 		4A93FA511C286D8F00479579 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = MediationExample/ViewController.m; sourceTree = SOURCE_ROOT; };
+		7936139DBD78F3F5707E0946 /* Pods-MediationExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediationExample.release.xcconfig"; path = "Target Support Files/Pods-MediationExample/Pods-MediationExample.release.xcconfig"; sourceTree = "<group>"; };
 		AE5DE0471F3E0F32005C0A1D /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartViewController.h; path = MediationExample/StartViewController.h; sourceTree = SOURCE_ROOT; };
 		AE5DE0481F3E0F32005C0A1D /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StartViewController.m; path = MediationExample/StartViewController.m; sourceTree = SOURCE_ROOT; };
 		AE5DE04B1F3E1510005C0A1D /* SampleCustomEventConstantsSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleCustomEventConstantsSwift.swift; sourceTree = "<group>"; };
@@ -130,6 +134,7 @@
 			files = (
 				AEABBB121F6067BC003BB4D2 /* SampleAdSDKAdapter.framework in Frameworks */,
 				AEC0D12E1F3BC7B9005B3813 /* SampleAdSDK.framework in Frameworks */,
+				488A3CC5E5C3A52B0D6350D0 /* libPods-MediationExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +218,7 @@
 			children = (
 				AEABBB111F6067BC003BB4D2 /* SampleAdSDKAdapter.framework */,
 				AEC0D12C1F3BC782005B3813 /* SampleAdSDK.framework */,
+				29E1ED56BAE5A403E8B9E162 /* libPods-MediationExample.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -220,6 +226,8 @@
 		AAE34E526612B5CA72DF4882 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				3A4258757EEA9B06EDFD735F /* Pods-MediationExample.debug.xcconfig */,
+				7936139DBD78F3F5707E0946 /* Pods-MediationExample.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -253,6 +261,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26E462D51B8693F600D2C50F /* Build configuration list for PBXNativeTarget "MediationExample" */;
 			buildPhases = (
+				070B925DF4021FFF67208782 /* [CP] Check Pods Manifest.lock */,
 				26E462AE1B8693F600D2C50F /* Sources */,
 				26E462AF1B8693F600D2C50F /* Frameworks */,
 				26E462B01B8693F600D2C50F /* Resources */,
@@ -339,6 +348,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		070B925DF4021FFF67208782 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MediationExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		26E462AE1B8693F600D2C50F /* Sources */ = {
@@ -498,6 +532,7 @@
 		};
 		26E462D61B8693F600D2C50F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A4258757EEA9B06EDFD735F /* Pods-MediationExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -539,6 +574,7 @@
 					"\"SystemConfiguration\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Google.$(PRODUCT_NAME:rfc1034identifier)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.mobilefootie.fotmobpro;
 				PRODUCT_NAME = MediationExample;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.2;
@@ -547,6 +583,7 @@
 		};
 		26E462D71B8693F600D2C50F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7936139DBD78F3F5707E0946 /* Pods-MediationExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -588,6 +625,7 @@
 					"\"SystemConfiguration\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Google.$(PRODUCT_NAME:rfc1034identifier)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.mobilefootie.fotmobpro;
 				PRODUCT_NAME = MediationExample;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.2;
